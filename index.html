@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Calculadora de troco</title>
+	<style>
+		fieldset{
+			width: 30%;
+		}
+	</style>
+</head>
+<body>
+	<h1>Algoritmo de busca gulosa</h1>
+	<form>
+		<fieldset>
+			<legend>Troco: (R$)</legend>
+			<input type="number" name="troco" id="troco" placeholder="Insira aqui o valor do troco" step="1" required value="26">
+		</fieldset>
+		<fieldset>
+			<legend>Notas disponíveis:</legend>
+			<input type="text" name="notas" id="notas" placeholder="Insira as notas separadas por vírgula" required value="1,2,5,10,20,50,100">
+		</fieldset>
+		<fieldset>
+			<legend>Calcular</legend>
+			<button type="submit">Calcular</button>
+		</fieldset>
+	</form>
+	<ul></ul>
+	<span></span>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
